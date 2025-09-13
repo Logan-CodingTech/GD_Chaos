@@ -1,0 +1,7 @@
+{
+  "Logan": {
+    "triggers": ["username", "vm"],
+    "payload": "crash_screen",
+    "rollback": true
+  }
+}
