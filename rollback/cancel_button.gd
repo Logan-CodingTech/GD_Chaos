@@ -1,5 +1,8 @@
-extends Node
+extends Button
 
-func restore_snapshot():
-    print("Restoring VM snapshot...")
-    # Simulated logic
+func _ready():
+    text = "Cancel"
+    connect("pressed", self, "_on_cancel")
+
+func _on_cancel():
+    get_tree().quit()
