@@ -1,0 +1,3 @@
+{
+  "payloads": ["fake_installer", "looping_error", "crash_screen", "stealth_trigger"]
+}
